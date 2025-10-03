@@ -81,18 +81,6 @@ Publish the website in the LocalHost.
       text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
     }
 
-     .cover .logo{
-      position:absolute;
-      right:70px;          
-      bottom:120px;        
-      width:90px;         
-      height:auto;
-      z-index:10;         
-      pointer-events:none; 
-      transform: translate(0,0); 
-    }
- 
-
   </style>
 </head>
 <body>
