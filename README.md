@@ -37,31 +37,31 @@ Publish the website in the LocalHost.
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Text on Image</title>
   <style>
-    /* Center the cover on the page */
+    
     body {
       display: flex;
-      justify-content: center;  /* horizontal center */
-      align-items: center;      /* vertical center */
-      height: 100vh;            /* full viewport height */
-      margin: 0;                /* remove default margin */
-      background: #f0f0f0;      /* optional: light background */
+      justify-content: center;  
+      align-items: center;      
+      height: 100vh;            
+      margin: 0;
+      background: #f0f0f0;      
     }
       
-    /* The container with the image */
+    
     .cover {
       width: 400px;
       height: 600px;
-      background-image: url('exp 6 pic.jpg'); /* replace with your image file */
-      background-size: cover;       /* make it fill the box */
-      background-position: center;  /* center the image */
-      position: relative;           /* needed for positioning text */
+      background-image: url('exp 6 pic.jpg'); 
+      background-size: cover;       
+      background-position: center;  
+      position: relative;
       border: 2px solid #000;
-      color: white;                 /* default text color */
+      color: white;                 
       font-family: Arial, sans-serif;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* optional nice shadow */
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
 
-    /* Style for the text inside */
+    
     .cover h1 {
       position: absolute;
       top: 40px;             
@@ -83,13 +83,13 @@ Publish the website in the LocalHost.
 
      .cover .logo{
       position:absolute;
-      right:70px;          /* distance from right edge — tweak this */
-      bottom:120px;        /* distance from bottom edge — tweak this */
-      width:90px;          /* logo size */
+      right:70px;          
+      bottom:120px;        
+      width:90px;         
       height:auto;
-      z-index:10;          /* keep it above text/background */
-      pointer-events:none; /* click-through if you don't want it interactive */
-      transform: translate(0,0); /* optional fine-tune */
+      z-index:10;         
+      pointer-events:none; 
+      transform: translate(0,0); 
     }
  
 
